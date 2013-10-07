@@ -20,21 +20,21 @@ private static final long serialVersionUID = 1L;
 			return;
 		}
 		int a = Integer.parseInt(aStr);
-		int b = Integer.parseInt(req.getParameter(bStr));
+		int b = Integer.parseInt(bStr);
 		if(url.contains("suma")){
 			resp.getWriter().println("<h1>La suma de "+a+"+"+b+" es <strong>"+(a+b)+"</strong></h1>");
 			return;
 		}
 		if(url.contains("resta")){
-			resp.getWriter().println("<h1>La resta de "+a+"-"+b+" es <strong>"+(a+b)+"</strong></h1>");
+			resp.getWriter().println("<h1>La resta de "+a+"-"+b+" es <strong>"+(a-b)+"</strong></h1>");
 			return;
 		}
 		if(url.contains("divicion")){
-			resp.getWriter().println("<h1>La divicion de "+a+"/"+b+" es <strong>"+(a+b)+"</strong></h1>");
+			resp.getWriter().println("<h1>La divicion de "+a+"/"+b+" es <strong>"+(a/b)+"</strong></h1>");
 			return;
 		}
 		if(url.contains("multiplicacion")){
-			resp.getWriter().println("<h1>La multiplicacion de "+a+"*"+b+" es <strong>"+(a+b)+"</strong></h1>");
+			resp.getWriter().println("<h1>La multiplicacion de "+a+"*"+b+" es <strong>"+(a*b)+"</strong></h1>");
 			return;
 		}
 		resp.getWriter().println("<i>404 - Not found operation...</i>");
