@@ -1,4 +1,0 @@
-faedeveloper
-============
-
-Fae Developer Projects
