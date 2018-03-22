@@ -77,7 +77,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="header">
 		<div class="container">
 			<div class="logo">
-				<a href="index.html"><span>QP2</span>'N</a>
+				<a href="index.jsp"><span>QP2</span>'N</a>
 			</div>
 			
 		</div>
@@ -457,7 +457,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="footer-bottom text-center">
 			<div class="container">
 				<div class="footer-logo">
-					<a href="index.html"><span>Re</span>sale</a>
+					<a href="index.jsp"><span>QP2</span>'N</a>
 				</div>
 				<div class="footer-social-icons">
 					<ul>
