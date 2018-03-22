@@ -18,40 +18,19 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.openshift.cloudenablement.eap</groupId>
-    <artifactId>websocket-chat</artifactId>
-    <version>1.2.0.Final</version>
+
+    <groupId>com.example</groupId>
+    <artifactId>test</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
     <name>Tomcat websocket example</name>
     <description>A websocket example that can be used with Tomcat 7 and Tomcat 8</description>
-
-    <licenses>
-        <license>
-            <name>Apache License, Version 2.0</name>
-            <distribution>repo</distribution>
-            <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
-        </license>
-    </licenses>
-
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-
-        <!-- version dependencies -->
-        <version.websocket.api>1.1</version.websocket.api>
-        <version.jboss.logging>3.1.4.GA-redhat-2</version.jboss.logging>
-
-        <!-- maven-compiler-plugin -->
-        <maven.compiler.target>1.6</maven.compiler.target>
-        <maven.compiler.source>1.6</maven.compiler.source>
-    </properties>
-
-
+	<url>http://maven.apache.org</url>
     <dependencies>
-        <dependency>
-            <groupId>org.jboss.logging</groupId>
-            <artifactId>jboss-logging</artifactId>
-            <version>${version.jboss.logging}</version>
-            <scope>provided</scope>
+         <dependency>
+        	<groupId>junit</groupId>
+        	<artifactId>junit</artifactId>
+        	<version>3.8.1</version>
         </dependency>
         <dependency>
         	<groupId>javax.servlet</groupId>
@@ -61,8 +40,6 @@
     </dependencies>
 
     <build>
-        <!-- Maven will append the version to the finalName (which is the name 
-            given to the generated war, and hence the context root) -->
-        <finalName>${project.artifactId}</finalName>
+        <finalName>ROOT</finalName>
     </build>
 </project>
