@@ -17,6 +17,7 @@
     <servlet>
     	<servlet-name>Qp2tonigh</servlet-name>
     	<servlet-class>q.p2.to.n.Qp2tonight</servlet-class>
+    	<load-on-startup>-1</load-on-startup>
     </servlet>
     
     <servlet-mapping>

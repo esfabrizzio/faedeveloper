@@ -94,7 +94,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="focus-border">
 								<div class="focus-layout">
 									<div class="focus-image"><i class="fa fa-mobile"></i></div>
-									<h4 class="clrchg">Mobiles</h4>
+									<h4 class="clrchg">Móvil</h4>
 								</div>
 							</div>
 						</a>
@@ -104,7 +104,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="focus-border">
 								<div class="focus-layout">
 									<div class="focus-image"><i class="fa fa-laptop"></i></div>
-									<h4 class="clrchg"> Electronics & Appliances</h4>
+									<h4 class="clrchg">Electrónica y Accesorios</h4>
 								</div>
 							</div>
 						</a>
@@ -114,7 +114,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="focus-border">
 								<div class="focus-layout">
 									<div class="focus-image"><i class="fa fa-car"></i></div>
-									<h4 class="clrchg">Cars</h4>
+									<h4 class="clrchg">Vehículos</h4>
 								</div>
 							</div>
 						</a>
@@ -124,7 +124,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="focus-border">
 								<div class="focus-layout">
 									<div class="focus-image"><i class="fa fa-motorcycle"></i></div>
-									<h4 class="clrchg">Bikes</h4>
+									<h4 class="clrchg">Bicicletas</h4>
 								</div>
 							</div>
 						</a>
